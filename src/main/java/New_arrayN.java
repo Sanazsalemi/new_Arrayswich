@@ -7,8 +7,6 @@ public class New_arrayN {
     private void intToString(int[] inputArray) {
         int inputArrayLength = inputArray.length;
         String[] ouputeArray = new String[inputArrayLength];
-
-
         for (int i = 0; i < inputArray.length; i++) {
             if (inputArray[i] == 1) {
                 System.out.println(ouputeArray[i]);
